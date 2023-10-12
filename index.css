@@ -1,0 +1,168 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #111;
+  max-width: 100dvw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body a {
+  color: white;
+  text-decoration: none;
+}
+
+body header {
+  height: 100dvh;
+  max-height: 100dvh;
+  background-color: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+}
+
+body header #titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+body header #titre img {
+  width: 85%;
+}
+
+body header nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+}
+
+body header nav h3 a {
+  display: inline;
+}
+
+body header nav h3 a:last-child:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0%;
+  background-color: #fff;
+  border-radius: 999px;
+  position: relative;
+  top: 5px;
+  margin: 0 auto;
+  -webkit-transition: width 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
+}
+
+body header nav h3:hover a:last-child:after {
+  width: 100%;
+  -webkit-transition: width 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
+}
+
+body main {
+  height: 100dvh;
+  width: 70dvw;
+  overflow-y: scroll;
+}
+
+body main .blocs {
+  height: 100dvh;
+}
+
+body main .blocs#bloc-presentation {
+  background-color: lightblue;
+}
+
+body main .blocs#bloc-formations {
+  background-color: lightcoral;
+}
+
+body main .blocs#bloc-experiences {
+  background-color: lightcyan;
+}
+
+body main .blocs#bloc-competences {
+  background-color: lightgreen;
+}
+
+body main .blocs#bloc-qualites {
+  background-color: lightseagreen;
+}
+
+body main .blocs#bloc-passions {
+  background-color: lightsalmon;
+}
+
+body main .blocs#bloc-portfolio {
+  background-color: lightgoldenrodyellow;
+}
+
+body main .blocs#bloc-contact {
+  background-color: lightsteelblue;
+}
+/*# sourceMappingURL=index.css.map */
